@@ -51,7 +51,7 @@ a {
 
 /* 通用樣式 */
 .container {
-  width: 1296px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
