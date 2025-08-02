@@ -1,0 +1,53 @@
+.story-header {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .story-header {
+    padding: 87px 0;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+  }
+}
+
+/* 品牌簡介 */
+.quote {
+  border-radius: 12px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .quote {
+    text-align: left;
+  }
+}
+
+.section-lined {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+/* 品牌歷程 */
+.history-list {
+  border-left: 1px solid var(--neutral-900);
+  margin-left: 8px;
+  padding-left: 8px;
+}
+
+/* 品牌理念 */
+.concept {
+  border-left: 3px solid var(--neutral-300);
+  padding: 0 12px;
+}
+
+/* 品牌小故事 */
+.story-link {
+  border-bottom: 1px solid var(--primary-400);
+  padding-bottom: 4px;
+}

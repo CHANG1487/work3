@@ -10,6 +10,12 @@
   padding: 0 4px;
 }
 
+@media (max-width: 767px) {
+  .product-col {
+    width: 100%;
+  }
+}
+
 /* 產品描述 */
 .del-price {
   font-size: 14px;
@@ -44,6 +50,12 @@
 
 .product-action .btn {
   width: 50%;
+}
+
+@media (max-width: 767px) {
+  .product-action .btn-dark {
+    flex: 1;
+  }
 }
 
 .product-action .bi {

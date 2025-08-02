@@ -4,42 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>URBNSTEP / 商品列表</title>
-    <link rel="stylesheet" href="style/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="style/all.css" />
-    <link rel="stylesheet" href="style/products.css" />
+    <link rel="stylesheet" href="./style/all.css" />
+    <link rel="stylesheet" href="./style/products.css" />
   </head>
   <body>
-    <nav class="container py-16 d-flex align-center justify-between">
+    <nav class="container py-16 py-sm-12 d-flex align-center justify-between">
       <ul class="d-flex align-center">
         <li class="me-48">
-          <a href="index.html">
-            <img src="image/logo.svg" alt="logo" />
+          <a href="./index.html">
+            <img src="./image/logo.svg" alt="logo" />
           </a>
         </li>
-        <li class="me-40"><a href="product.html" class="py-12">商品列表</a></li>
-        <li><a href="story.html" class="py-12">品牌故事</a></li>
+        <li class="me-40 d-sm-none">
+          <a href="./products.html" class="py-12">商品列表</a>
+        </li>
+        <li class="d-sm-none">
+          <a href="./story.html" class="py-12">品牌故事</a>
+        </li>
       </ul>
       <a href="#" class="p-12"><i class="bi bi-person"></i></a>
     </nav>
-    <main class="container py-32 mb-48">
+    <main class="container py-32 mb-48 py-md-16">
       <section style="padding: 0 12px">
         <!-- 麵包屑導覽 -->
-        <nav class="mb-24">
+        <nav class="mb-24 mb-md-12">
           <ol class="d-flex">
             <li class="breadcrumb-item">
               <a href="index.html" class="breadcrumb-link">首頁</a>
             </li>
+            <li class="breadcrumb-item">
+              <a href="#" class="breadcrumb-link">女鞋</a>
+            </li>
             <li class="breadcrumb-item">所有商品</li>
           </ol>
         </nav>
-        <h1 class="h3 mb-24">所有商品</h1>
+        <h1 class="h3 h4.md mb-24 mb-md-12">女鞋</h1>
         <div class="row">
           <!-- category -->
-          <div class="col-2">
+          <div class="col-2 d-md-none">
             <nav>
               <ul class="category">
                 <li class="mb-16">
@@ -55,113 +61,134 @@
             </nav>
           </div>
           <!-- product-list -->
-          <div class="col-10">
+          <div class="col-10 col-md-4">
             <div class="row">
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product.png"
+                      src="./image/product.png"
                       alt="PLATFORM 404"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">PLATFORM 404</h2>
+                    <h2 class="h6 mb-4 mb-md-0">PLATFORM 404</h2>
                     <p>NT$2,600</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product-1.png"
+                      src="./image/product-1.png"
                       alt="PLATFORM 404-Beige"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">PLATFORM 404</h2>
+                    <h2 class="h6 mb-4 mb-md-0">PLATFORM 404</h2>
                     <p>NT$2,600</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
-                    <img src="image/product-2.png" alt="VM001" class="mb-12" />
-                    <h2 class="h6 mb-4">VM001</h2>
-                    <p>NT$2,600</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product-3.png"
+                      src="./image/product-2.png"
+                      alt="VM001"
+                      class="mb-12 mb-md-8"
+                    />
+                    <h2 class="h6 mb-4 mb-md-0">VM001</h2>
+                    <p>NT$2,600</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
+                    <img
+                      src="./image/product-3.png"
                       alt="Melty Kiss"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">Melty Kiss</h2>
+                    <h2 class="h6 mb-4 mb-md-0">Melty Kiss</h2>
                     <p>NT$4,000</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product-4.png"
+                      src="./image/product-4.png"
                       alt="BOOMBLOK-White"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">BOOMBLOK</h2>
+                    <h2 class="h6 mb-4 mb-md-0">BOOMBLOK</h2>
                     <p>NT$3,200</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product-5.png"
+                      src="./image/product-5.png"
                       alt="BOOMBLOK-Denim"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">BOOMBLOK</h2>
+                    <h2 class="h6 mb-4 mb-md-0">BOOMBLOK</h2>
                     <p>NT$3,200</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
-                    <img src="image/product-6.png" alt="R:UNER" class="mb-12" />
-                    <h2 class="h6 mb-4">R:UNER</h2>
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
+                    <img
+                      src="./image/product-6.png"
+                      alt="R:UNER"
+                      class="mb-12 mb-md-8"
+                    />
+                    <h2 class="h6 mb-4 mb-md-0">R:UNER</h2>
                     <p>NT$4,000</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-24">
+                  <a href="./product.html">
                     <img
-                      src="image/product-7.png"
+                      src="./image/product-7.png"
                       alt="Sugar Snap"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">Sugar Snap</h2>
+                    <h2 class="h6 mb-4 mb-md-0">Sugar Snap</h2>
                     <p>NT$4,000</p>
                   </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="mb-48">
-                  <a href="product.html">
+              <div class="col-4 col-md-2">
+                <div class="mb-48 mb-md-32">
+                  <a href="./product.html">
                     <img
-                      src="image/product-8.png"
+                      src="./image/product-8.png"
                       alt="Neofoam"
-                      class="mb-12"
+                      class="mb-12 mb-md-8"
                     />
-                    <h2 class="h6 mb-4">Neofoam</h2>
+                    <h2 class="h6 mb-4 mb-md-0">Neofoam</h2>
+                    <p>NT$4,000</p>
+                  </a>
+                </div>
+              </div>
+              <div class="col-4 col-md-2 d-none d-md-block">
+                <div class="mb-48 mb-md-32">
+                  <a href="./product.html">
+                    <img
+                      src="./image/product-9.png"
+                      alt="Buttermood"
+                      class="mb-12 mb-md-8"
+                    />
+                    <h2 class="h6 mb-4 mb-md-0">Buttermood</h2>
                     <p>NT$4,000</p>
                   </a>
                 </div>
@@ -200,23 +227,23 @@
       </section>
     </main>
     <div class="bg-primary-200 d-flex justify-center align-center py-24">
-      <p class="h4 me-24">加入會員取得 9 折優惠</p>
+      <p class="h4 h5-sm me-24 me-sm-16">加入會員取得 9 折優惠</p>
       <button type="button" class="btn btn-dark">馬上註冊</button>
     </div>
     <footer>
-      <div class="bg-neutral-100 py-64">
-        <nav class="container">
-          <ul class="d-flex justify-between align-center mb-24">
+      <div class="bg-neutral-100 py-64 p-md-0">
+        <nav class="container container-md">
+          <ul class="d-flex justify-between align-center d-sm-block mb-24">
             <li>
-              <a href="index.html">
-                <img src="image/logo.svg" alt="logo" />
+              <a href="./index.html">
+                <img src="./image/logo.svg" alt="logo" />
               </a>
             </li>
-            <div class="d-flex">
+            <div class="d-flex d-sm-block px-sm-12">
               <li class="me-40">
-                <a href="product.html" class="py-12">商品列表</a>
+                <a href="./products.html" class="py-12 mb-sm-4">商品列表</a>
               </li>
-              <li><a href="story.html" class="py-12">品牌故事</a></li>
+              <li><a href="./story.html" class="py-12">品牌故事</a></li>
             </div>
           </ul>
           <div style="border-top: 1px solid var(--neutral-300)">
